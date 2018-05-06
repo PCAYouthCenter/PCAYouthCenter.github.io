@@ -1,0 +1,89 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    box-shadow: 0px 10px 20px;
+    background-color: rgb(160, 30, 30);
+}
+
+#button-donate {
+    color: white;
+}
+
+#button-donate:hover {
+    color: rgb(160, 30, 30);
+}
+
+#pcaCarousel {
+    text-shadow: 0px 0px 10px;
+}
+
+#pcaCarousel .carousel-image {
+    height: 100vh;
+}
+
+.carousel-caption {
+    text-shadow: 0px 0px 20px black;
+}
+
+article {
+    padding-bottom: 1em;
+}
+
+.article-title {
+    text-align: center;
+    color: white;
+    background-color: rgb(63, 63, 63);
+}
+
+.article-body {
+    color: black;
+    background-color: white;
+}
+
+.btn-primary, .btn-primary:visited {
+    color: white !important;
+    background-color: rgb(160, 30, 30) !important;
+    border-color: rgb(160, 30, 30) !important;
+}
+
+.btn-primary:hover, .btn-primary:active {
+    color: black !important;
+    background-color: white !important;
+    border-color: black !important;
+}
+
+a:link, a:visited {
+    color: inherit;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(191,191,191);
+    background-color: rgb(106,20,20);
+}
+
+.col{
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-copyright {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    background-color: rgb(80,15,15);
+}
