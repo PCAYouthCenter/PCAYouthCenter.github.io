@@ -1,0 +1,21 @@
+#main {
+    padding: 5%;
+}
+
+.article-title {
+    text-align: center;
+}
+
+.person {
+    text-align: center;
+}
+
+.person-img {
+    display: block;
+    width: 8rem;
+    margin: auto;
+}
+
+.person-description {
+    color: grey;
+}

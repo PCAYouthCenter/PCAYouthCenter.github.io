@@ -1,0 +1,266 @@
+
+<!DOCTYPE HTML><html><head><meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PCA Youth Center</title>
+<script>gcal$perf$serverTime=64;gcal$perf$headStartTime=new Date().getTime()</script>
+<style type="text/css">body{margin:0;padding:0;overflow-y:hidden;}
+        html{overflow-y:hidden;}</style>
+<link type="text/css" rel="stylesheet" href="https://calendar.google.com/calendar/static/16ad81e18b01cef4030009aef1b08e48embedcompiled_fastui.css">
+
+
+<script type="text/javascript">
+  function _DumpException(e) { throw e; }
+  </script>
+<script type="text/javascript" src="https://calendar.google.com/calendar/_/scs/calendar-static/_/js/k=calendar.embed.en._yuPTIOfeuE.O/m=embed/rt=j/d=1/rs=ANwU0p5Ubr2ZWZShuynMPCmDGGOr2g1GEQ"></script>
+<script>function _onload() {window._init({"features":[1,1,1,1,0,1,1,1,1,0,1,0,1,1,0,0,0,0,1,1,0,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,1,0,1,1,1,1,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,1,1,0,1,0,1,1,0,1,1,1,1,1,1,1,1,0,0,0,0,1,0,1,0,1,0,0,1,1,0,0,1,1,1,0,1,0,1,1,1,0,0,0,0,0,1,1,0,1,1,0,1,1,0,0,1,1,0,0,0,0,1,0,0,1,1,0,1,0,0,0,0,1,0,1,1,0],"loggedin":true,"cids":{"21jemei99@northallegheny.org":{"color":"#29527a","access":70,"title":"21jemei99@northallegheny.org"}},"view":"month","weekstart":0,"format24hour":false,"dateFieldOrder":0,"preloadStart":"20180428","preloadEnd":"20180607","container":"container","baseUrl":"/","imagePath":"//calendar.google.com/googlecalendar/images/","hostedDomain":{"name":"northallegheny.org","title":"North Allegheny School District","maplink":null},"timezone":"America/New_York","timezoneLocalized":"Eastern Time","timezoneOffsetMs":-14400000,"nowMs":"1525724356555","timezoneNextTransitionMs":"1541311200000","timezoneNextOffsetMs":-18000000,"showNavigation":true,"showDateMarker":true,"showTabs":true,"showCalendarMenu":true,"showCurrentTime":true,"showTz":true,"showPrintButton":true,"showElementsLogo":false,"collapseAllday":false,"showSubscribeButton":true,"embedStyle":"WyJhdDplbWI6c3QiXQo\u003d","proxyUrl":"https://clients6.google.com","calendarApiVersion":"v3","developerKey":"AIzaSyBNlYH01_9Hc5S1J9vuFmu2nUqBZJNAXxs"});}</script>
+<script type="text/javascript">
+      var pageLoaded_ = false;
+      var clientLibraryLoaded_ = false;
+
+      function clientLibraryLoaded() {
+        clientLibraryLoaded_ = true;
+        if (pageLoaded_) _onload();
+      }
+
+      function pageLoaded() {
+        pageLoaded_ = true;
+        if (clientLibraryLoaded_) _onload();
+      }
+    </script>
+<script type="text/javascript" src="https://apis.google.com/js/client.js?onload=clientLibraryLoaded"></script>
+<!--Start Custom Code-->
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<style type="text/css">
+
+/*Calendar title*/
+#calendarTitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+/*Navigation table at top*/
+.nav-table {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+/*today button*/
+.today-button, .today-button:visited {
+    margin: 0.5em;
+    border: none;
+    border-radius: 0.25em;
+    padding: 0.5em 0.75em;
+    background-color: rgb(160, 30, 30);
+    color: white;
+    font-family: inherit;
+    font-size: 1em;
+    
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.today-button:hover, .today-button:active {
+    background-color: rgb(213, 40, 40);
+}
+
+/*Navigation buttons(technically images) including the forward and backward buttons*/
+.navbutton, .navbutton:visited {
+    width: 16px;
+    height: 16px;
+    padding: 0.5em 0.75em;
+    background-color: rgb(160, 30, 30);
+    background-image: none;/*get rid of the previous image*/
+    color: white;
+    
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.navbutton:hover, .navbutton:active {
+    background-color: rgb(213, 40, 40);
+}
+
+.navForward {
+    border-radius: 0em 0.25em 0.25em 0em;
+}
+
+.navBack {
+    border-radius: 0.25em 0em 0em 0.25em;
+}
+
+/*date picker elements (including label)*/
+.date-picker-off {
+    
+}
+
+.date-picker-on {
+    border: none;
+    background-color: transparent;
+}
+
+/*Dropdown calendar for date picker*/
+/*START*/
+
+/*main container*/
+.dp-popup {
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+}
+
+/*inner container*/
+.monthtableSpace {
+    
+}
+
+/*cells*/
+.dp-cell {
+    color: black;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/*END*/
+
+/*Print label*/
+.tab-name{
+    display: none;
+}
+
+/*selection tabs containers*/
+.ui-rtsr {
+    
+}
+
+/*selection tabs cap*/
+.t1-embed, .t2-embed {
+    /*get rid of, outdated styling*/
+    display: none;
+}
+
+/*selected tabs*/
+.ui-rtsr-selected {
+    border-radius: 0.25em;
+    padding: 0.5em 0.75em;
+    background-color: rgb(223, 223, 223);
+    color: black;
+}
+
+/*unselected tabs*/
+.ui-rtsr-unselected, .ui-rtsr-unselected:visited {
+    border-radius: 0.25em;
+    padding: 0.5em 0.75em;
+    background-color: rgb(191, 191, 191);
+    color: black;
+}
+
+.ui-rtsr-unselected:hover, .ui-rtsr-unselected:active {
+    background-color: rgb(223, 223, 223);
+}
+
+/*dropdown to select user*/
+.calendar-nav {
+    /*don't want users selecting other calendars*/
+    display: none;
+}
+
+/*Cap on bottom and top*/
+.view-cap {
+    /*get rid of, google used a dated way to style corners*/
+    display: none;
+}
+
+/*Border*/
+.view-container-border {
+    border-radius: 0.25em;
+    background-color: #F8F9FF;
+}
+
+/*Background of days*/
+.st-bg {
+    
+}
+
+/*Background of today*/
+.st-bg-today {
+    
+}
+
+/*Background of tommorow*/
+.st-bg-next {
+    
+}
+
+/*Day labels*/
+.mv-dayname {
+    
+}
+
+/*Day label containers*/
+.mv-daynames-table { 
+    color:black;
+    background-color: #F8F9FF;
+}
+
+/*event label container*/
+.mv-event-container {
+    border-radius: 0.25em;
+    margin-top: 0.25em;
+}
+
+/*agenda container*/
+.agenda {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+/*footer*/
+.footer {
+    background-color: #F8F9FF;
+    color: rgb(191,191,191);
+}
+</style>
+<script>
+    /*global pageLoaded*/
+    function loadCustom(){
+        //first allow google to load styles and elements
+        pageLoaded();
+        
+        //customize elements
+        customize();
+    }
+    
+    function customize(){
+        //edit stubborn navbutton img tags and replace with img
+        //NOTE: do alter or replace html, as the google's event handlers will stop working
+        var navButtons = document.getElementsByClassName("navForward");
+        for(var i in navButtons){
+            navButtons.item(i).src = "assets/icons/chevron_right_white.svg";
+        }
+        var navButtons = document.getElementsByClassName("navBack");
+        for(var i in navButtons){
+            navButtons.item(i).src = "assets/icons/chevron_left_white.svg";
+        }
+        
+        //google didn't set an id or class for the printer image...still managed to get it
+        var navbar = document.getElementsByClassName("nav-table");
+        var printIcon = navbar.item(0).childNodes.item(0).childNodes.item(0).childNodes.item(4).childNodes.item(0);
+        printIcon.src = "assets/icons/printer_lines_red.svg";
+        printIcon.style.width = "2em"
+        printIcon.style.height = "2em";
+        printIcon.title = "Print Calendar";
+        printIcon.onclick = function(){window.print();};
+    }
+</script>
+</head>
+<!--End Custom Code-->
+<body onload="loadCustom()" style="background-color:#fff">
+<span id="calendarTitle">PCA Youth Center Calendar</span>
+
+<noscript><p></p>
+Your browser does not appear to support JavaScript, but this page needs to use JavaScript to display correctly.
+You can visit the HTML-only version of this page at:
+<a href="https://calendar.google.com/calendar/htmlembed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=21jemei99%40northallegheny.org&amp;color=%2329527A&amp;ctz=America%2FNew_York">https://calendar.google.com/calendar/htmlembed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=21jemei99%40northallegheny.org&amp;color=%2329527A&amp;ctz=America%2FNew_York</a></noscript>
+<div id="container" style="width:100%" class="locale-en "></div></body></html>

@@ -1,0 +1,66 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    box-shadow: 0em 0em 2em;
+    background-color: rgb(160, 30, 30);
+}
+
+#navbar-brand-image {
+    width: 3.75em;
+    height: 3.75em;
+    border-radius: 0.25em;
+}
+
+.navbar-button, .navbar-button:visited {
+    color: white !important;
+}
+
+.navbar-button:hover, .navbar-button:active {
+    color: rgb(160, 30, 30) !important;
+}
+
+.card-button, .card-button:visited {
+    color: white !important;
+    background-color: rgb(160, 30, 30) !important;
+    border-color: rgb(160, 30, 30) !important;
+}
+
+.card-button:hover, .card-button:active {
+    color: black !important;
+    background-color: white !important;
+    border-color: black !important;
+}
+
+a:link, a:visited {
+    color: inherit;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(191,191,191);
+    background-color: rgb(106,20,20);
+}
+
+.col{
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+#footer-copyright {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    background-color: rgb(80,15,15);
+}

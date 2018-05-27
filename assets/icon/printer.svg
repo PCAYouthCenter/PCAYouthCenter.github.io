@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
+   viewBox="0 0 4.2333332 4.2333332"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.0 r15299"
+   sodipodi:docname="printer.svg">
+  <title
+     id="title4798">Printer Icon</title>
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect3808"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect3800"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect4784"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="44.8"
+     inkscape:cx="12.167183"
+     inkscape:cy="8.1733429"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:object-paths="true"
+     inkscape:snap-nodes="true"
+     units="px"
+     inkscape:snap-bbox="true"
+     inkscape:snap-tangential="true"
+     inkscape:snap-perpendicular="false"
+     inkscape:bbox-paths="false"
+     inkscape:bbox-nodes="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3690"
+       units="px"
+       spacingx="0.26458332"
+       spacingy="0.26458332"
+       empspacing="4"
+       visible="true"
+       snapvisiblegridlinesonly="true"
+       dotted="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Printer Icon</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-292.76667)">
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.28950617px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0"
+       d="m 1.478791,293.17601 c -0.3436307,0 -0.4418093,0 -0.4910466,0.0474 -0.0492373,0.0474 -0.0492373,0.14202 -0.0492373,0.66514 0,0.52311 0,1.46877 0,1.99048 0,0.52171 0,0.61654 0.0504834,0.66412 0.0504834,0.0476 0.14617109,0.0476 0.48891759,0.0476 0.3427465,0 0.9335937,0 1.2771995,0 0.3436059,0 0.4418344,0 0.4907772,-0.0474 0.048943,-0.0474 0.048943,-0.14261 0.048943,-0.66288 0,-0.52026 0,-1.47164 0,-1.99326 0,-0.52162 0,-0.61661 -0.048795,-0.66389 -0.048795,-0.0473 -0.1472703,-0.0473 -0.4917841,-0.0473 -0.3445137,0 -0.9318266,0 -1.2754574,0 z"
+       id="path3798"
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 1.2330473,293.17601 c -0.097887,-3e-4 -0.1960656,-3e-4 -0.29454019,0 2.9458e-4,0.0948 2.9458e-4,0.18942 0,0.28455 2.9458e-4,0.9511 2.9458e-4,1.89676 0,2.84558 2.9458e-4,0.0946 2.9458e-4,0.18943 0,0.28458 0.10096679,9.7e-4 0.19665449,-3e-4 0.29454019,0 0.5876073,-3e-4 1.1784545,-3e-4 1.7672402,0 0.098426,-3e-4 0.1966545,-3e-4 0.29454,0 2.945e-4,-0.0948 2.945e-4,-0.19001 0,-0.28458 2.945e-4,-0.94596 2.945e-4,-1.89734 0,-2.84558 2.945e-4,-0.095 2.945e-4,-0.18999 0,-0.28455 -0.09759,-3e-4 -0.1960653,-3e-4 -0.29454,0 -0.5905528,-3e-4 -1.1778657,-3e-4 -1.7672402,0 z"
+       inkscape:path-effect="#path-effect3800" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.03131604px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 3.546875 6.515625 C 1.2303059 6.515625 0.87404473 6.5157194 0.6953125 6.6816406 C 0.51658015 6.8475619 0.515625 7.1787987 0.515625 8.0097656 L 0.515625 10.992188 C 0.515625 11.821453 0.51604573 12.15206 0.6953125 12.318359 C 0.87457927 12.484659 1.2289084 12.484375 3.5390625 12.484375 L 3.5546875 12.484375 C 3.553403 12.219011 3.546875 12.132632 3.546875 11.763672 L 3.546875 10.546875 L 12.453125 10.546875 L 12.453125 11.767578 C 12.453125 12.134267 12.446434 12.220144 12.445312 12.484375 L 12.455078 12.484375 C 14.771604 12.484375 15.128978 12.484281 15.306641 12.318359 C 15.484305 12.152438 15.484375 11.821177 15.484375 10.994141 L 15.484375 8.0078125 C 15.484375 7.1788487 15.483768 6.8469194 15.306641 6.6816406 C 15.129513 6.5164753 14.772203 6.515625 12.449219 6.515625 L 3.546875 6.515625 z M 2 7 A 0.99999994 0.9999934 0 0 1 3 8 A 0.99999994 0.9999934 0 0 1 2 9 A 0.99999994 0.9999934 0 0 1 1 8 A 0.99999994 0.9999934 0 0 1 2 7 z "
+       transform="matrix(0.26458333,0,0,0.26458333,0,292.76667)"
+       id="path3806" />
+  </g>
+</svg>
