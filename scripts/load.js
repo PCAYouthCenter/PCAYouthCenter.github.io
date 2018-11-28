@@ -44,9 +44,9 @@ function insertContent(json){
         }
     }
     //TODO Lazy loading
-    $('img').Lazy({
+    /*$('img').Lazy({
         effect: "fadeIn",
         effectTime: 200,
         threshold: 0
-    });
+    });*/
 }
