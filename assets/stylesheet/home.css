@@ -15,15 +15,11 @@
 }
 
 .carousel-caption {
-    
+    background-color: rgba(160, 30, 30, 0.5);
 }
 
-.main-content {
-    padding: 5%;
-}
-
-article {
-    padding-bottom: 1em;
+.content {
+    text-align: center;
 }
 
 .article-title {
@@ -32,9 +28,4 @@ article {
     text-align: center;
     color: white;
     background-color: rgb(63, 63, 63);
-}
-
-.article-body {
-    color: black;
-    background-color: white;
 }

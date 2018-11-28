@@ -1,5 +1,6 @@
 body {
     font-family: 'Quicksand', sans-serif;
+    background-color: #F8F9FA;
 }
 
 header {
@@ -17,21 +18,50 @@ header {
     border-radius: 0.25em;
 }
 
-.navbar-button, .navbar-button:visited {
+#side-space {
+    display: inline-block;
+    width: 5%;
+}
+
+.dropdown-menu {
+    background-color: rgb(106,20,20);
+}
+
+.dropdown-menu, .navbar-button, .navbar-button:visited {
     color: white !important;
 }
 
-.navbar-button:hover, .navbar-button:active {
-    color: rgb(160, 30, 30) !important;
+.dropdown-menu:active, .navbar-button:hover, .navbar-button:active {
+    color: rgb(106,20,20) !important;
 }
 
-.card-button, .card-button:visited {
+.material {
+    box-shadow: 0 .1em .2em rgba(0, 0, 0, .5) !important;
+}
+
+.vertical-space {
+    margin-bottom: 5%;
+}
+
+.main-content {
+    padding: 5%;
+}
+
+.article-body {
+    color: black;
+}
+
+.card {
+    margin: auto;
+}
+
+.btn-primary, .btn-primary:visited {
     color: white !important;
     background-color: rgb(160, 30, 30) !important;
     border-color: rgb(160, 30, 30) !important;
 }
 
-.card-button:hover, .card-button:active {
+.btn-primary:hover, .btn-primary:active {
     color: black !important;
     background-color: white !important;
     border-color: black !important;
