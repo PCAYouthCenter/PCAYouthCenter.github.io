@@ -6,11 +6,18 @@
         <meta name="description" content="Official PCA Youth Center website. Click to learn more.">
         <meta name="keywords" content="Charity,PCA Youth Center,PCA,Youth Center">
         
+        <!--Favicon-->
+        <link rel="icon" href="assets/logo/PCAYouthCenter.png">
+        
         <!--Required stylesheets and scripts for Bootstrap-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        
+        <!-- Lazy image loading -->
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
         
         <!--Fonts-->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -23,7 +30,7 @@
         
         <!--Scripts-->
         <script src="scripts/load.js"></script>
-        <script src="scripts/home.js"></script>
+        <script src="scripts/index.js"></script>
         
         <title>PCA Youth Center</title>
     </head>
@@ -40,24 +47,24 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="carousel-image d-block w-100" src="assets/carousel/carousel1.jpg" alt="first slide">
+                        <img id="carousel-img-0" class="carousel-image d-block w-100" src="assets/article/default.jpg" alt="first slide">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Lorem ipsum</h5>
-                            <p>Dolor sit amet, consectetur adipiscing elit.</p>
+                            <h5 id="carousel-header-txt-0"></h5>
+                            <p id="carousel-paragraph-txt-0"></p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="carousel-image d-block w-100" src="assets/carousel/carousel2.jpg" alt="second slide">
+                        <img id="carousel-img-1" class="carousel-image d-block w-100" src="assets/article/default.jpg" alt="second slide">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Integer nec odio</h5>
-                            <p>Praesent libero. Sed cursus ante dapibus diam.</p>
+                            <h5 id="carousel-header-txt-1"></h5>
+                            <p id="carousel-paragraph-txt-1"></p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="carousel-image d-block w-100" src="assets/carousel/carousel3.jpg" alt="third slide">
+                        <img id="carousel-img-2" class="carousel-image d-block w-100" src="assets/article/default.jpg" alt="third slide">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Sed nisi</h5>
-                            <p> Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
+                            <h5 id="carousel-header-txt-2"></h5>
+                            <p id="carousel-paragraph-txt-2"></p>
                         </div>
                     </div>
                 </div>
@@ -71,7 +78,7 @@
                 </a>
             </div>
             <article>
-                <div class="container-fluid" id="article-info">
+                <div class="container-fluid">
                     <div class="row article-title">
                         <div class="col">
                             <h3>Pittsburgh Chinese Association Youth Center</h3>
@@ -80,32 +87,30 @@
                     </div>
                     <div class="main-content">
                         <div class="row article-body">
-                            <div class="col">
-                                <h5>Dolore Magna</h5>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                            </div>
-                            <div class="col">
-                                <img src="assets/article/image1.jpg" alt="image1" width="80%">
+                            <div class="col-md content">
+                                <div id="main-content-txt-0"></div>
+                                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
                             </div>
                         </div>
+                        <div class="vertical-space"></div>
                         <div class="row article-body">
-                            <div class="col">
-                                <div class="card" style="width: 80%">
-                                    <img class="card-img-top" src="assets/article/image2.jpg" alt="image1">
+                            <div class="col-md my-3">
+                                <div class="card material">
+                                    <img id="card-image-img-0" class="card-img-top" src="assets/article/default.jpg" alt="image1">
                                     <div class="card-body">
-                                        <h5 class="card-title">Lorem ipsum</h5>
-                                        <p class="card-text">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-                                        <a href="#" class="btn btn-primary card-button">More</a>
+                                        <h5 id="card-header-txt-0" class="card-title"></h5>
+                                        <p id="card-paragraph-txt-0" class="card-text"></p>
+                                        <a href="#" class="btn btn-primary">More</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col">
-                                <div class="card" style="width: 80%">
-                                    <img class="card-img-top" src="assets/article/image2.jpg" alt="image1">
+                            <div class="col-md my-3">
+                                <div class="card material">
+                                    <img id="card-image-img-1" class="card-img-top" src="assets/article/default.jpg" alt="image1">
                                     <div class="card-body">
-                                        <h5 class="card-title">Lorem ipsum</h5>
-                                        <p class="card-text">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-                                        <a href="#" class="btn btn-primary card-button">More</a>
+                                        <h5 id="card-header-txt-1" class="card-title"></h5>
+                                        <p id="card-paragraph-txt-1" class="card-text"></p>
+                                        <a href="#" class="btn btn-primary">More</a>
                                     </div>
                                 </div>
                             </div>
