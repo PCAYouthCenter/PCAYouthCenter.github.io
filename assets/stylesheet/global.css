@@ -35,6 +35,10 @@ header {
     color: rgb(106,20,20) !important;
 }
 
+.donate-button {
+    margin-left: 1em;
+}
+
 .material {
     box-shadow: 0 .1em .2em rgba(0, 0, 0, .5) !important;
 }
@@ -86,6 +90,11 @@ footer {
     padding-right: 1em;
     padding-left: 1em;
     padding-top: 1em;
+}
+
+#footer-info {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
 }
 
 #footer-copyright {
