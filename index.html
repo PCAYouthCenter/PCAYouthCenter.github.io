@@ -19,10 +19,18 @@
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
         
+        <!--Full Calendar-->
+        <link rel='stylesheet' href='assets/fullcalendar/fullcalendar.min.css'/>
+        <script src='assets/fullcalendar/lib/moment.min.js'></script>
+        <script src='assets/fullcalendar/fullcalendar.min.js'></script>
+        <script src='assets/fullcalendar/gcal.min.js'></script>
+        
         <!--Fonts-->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
         <!--Stylesheets-->
         <link rel="stylesheet" href="assets/stylesheet/global.css">
@@ -39,6 +47,11 @@
             
         </header>
         <main id="main">
+            <div class="icon-bar">
+              <a href="#" class="google"><i class="fa fa-google"></i></a> 
+              <a href="#" class="weixin"><i class="fa fa-weixin"></i></a>
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+            </div>
             <div id="pcaCarousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#pcaCarousel" data-slide-to="0" class="active"></li>
@@ -113,6 +126,15 @@
                                         <a href="#" class="btn btn-primary">More</a>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="row article-body">
+                            <div class="col-md-7 my-3">
+                                
+                            </div>
+                            <div class="col-md-5 my-3">
+                                <h5>What is Happening</h5>
+                                <div class="material" id='calendar'></div>
                             </div>
                         </div>
                     </div>
