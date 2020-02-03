@@ -48,7 +48,8 @@ header {
 }
 
 .main-content {
-    padding: 5%;
+    padding: 10%;
+    font-size: 16pt;
 }
 
 .article-body {
