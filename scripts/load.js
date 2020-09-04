@@ -6,18 +6,23 @@ $(document).ready(function() {
         console.log("Loaded Header.");
         headerHeight = $("#navbar").css("height");
         $("#main").css("margin-top", headerHeight);
-        
+
         pageLoad();
     });
     $("#footer").load( "footer.html", function() {
         console.log("Loaded Footer.");
     });
-    
+
+    //redirect popup
+    $("#popup-area").load("popup.html", function(){
+        console.log("Loaded redirect message.");
+    });
+
     //for dropdown menu
     $(document).on("hide.bs.dropdown", ".dropdown", function (event) {
         $(event.target).find(">.dropdown-menu:first").slideUp(200);
     });
-    
+
     $(document).on("show.bs.dropdown", ".dropdown", function (event) {
         $(event.target).find(">.dropdown-menu:first").slideDown(200);
     });
